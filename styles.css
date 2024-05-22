@@ -81,7 +81,9 @@ body {
     color: #b5651d;
     font-size: 0.9em;
     margin-bottom: 10px;
-    height: 20px; /* To maintain space even when there's no error */
+    height: 20px; 
+    text-align: center; 
+    width: 100%; 
 }
 
 .btn {
@@ -94,6 +96,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     font-family: 'Georgia', serif;
+    margin-top: 10px;
 }
 
 .btn:hover {
